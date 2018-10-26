@@ -91,6 +91,7 @@ def generate_config(context):
 
     optional_props = [
         'metadata',
+        'minCpuPlatform',
         'tags',
         'canIpForward',
         'labels',
